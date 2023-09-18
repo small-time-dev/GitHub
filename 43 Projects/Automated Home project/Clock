@@ -1,0 +1,14 @@
+from   import *
+from tkinter.ttk import *
+import datetime
+import platform
+
+try:
+    import os #other
+
+window = Tk()
+window.title("Clock")
+window.geometry('500x250')
+
+tabs_control = Notebook(window)
+clock_tab = 
